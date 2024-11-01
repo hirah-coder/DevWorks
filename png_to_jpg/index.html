@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNG to JPG Converter - SmallSEOTools</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">PNG to JPG Converter</h1>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-between">
+                <button class="btn upload-btn" id="uploadButton">
+                    <i class="fas fa-upload"></i> Upload File
+                </button>
+                <button class="btn clear-btn" id="clearQueueButton">
+                    <i class="fas fa-trash"></i> Clear Queue
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="imagePreview">Drop your files here</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a id="downloadLink" class="btn download-btn" download="converted.jpg">
+                    <i class="fas fa-download"></i> Download All
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

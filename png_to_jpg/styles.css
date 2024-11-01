@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 500px; /* Reduced width */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced box shadow */
+    padding: 30px;
+    margin: auto; /* Center the container */
+}
+h1 {
+    color: #333;
+    font-size: 24px; /* Adjusted font size */
+    font-weight: bold; /* Make heading bold */
+}
+.btn {
+    width: 48%; /* Make buttons occupy equal width */
+    padding: 10px; /* Increased padding */
+    font-size: 14px; /* Smaller font size */
+    margin: 10px 1%; /* Margin between buttons */
+    display: flex; /* Align icon and text */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon and text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+.upload-btn {
+    background-color: #257180; /* Custom primary button color */
+}
+.upload-btn:hover {
+    background-color: #3b6e78; /* Hover color for primary */
+}
+.clear-btn {
+    background-color: #6c757d; /* Custom secondary button color */
+}
+.clear-btn:hover {
+    background-color: #5a6268; /* Hover color for secondary */
+}
+.download-btn {
+    background-color: #CB6040; /* Custom download button color */
+    color: #fff; /* Text color */
+}
+.download-btn:hover {
+    background-color: #d17559; /* Hover color for download button */
+}
+#imagePreview {
+    max-width: 100%;
+    height: 300px; /* Fixed height for preview */
+    margin: 20px 0;
+    border: 2px dotted #FD8B51; /* Dotted border for preview */
+    border-radius: 4px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bf7854; /* Text color */
+    font-size: 18px; /* Text size */
+    text-align: center;
+}
+#downloadLink {
+    display: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px; /* Increased padding */
+    text-align: center;
+    font-size: 14px; /* Smaller font size */
+    width: 80%; /* Reduced width */
+    margin: 10px auto; /* Center link */
+    display: block; /* Center align link */
+}
